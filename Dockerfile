@@ -17,9 +17,9 @@ RUN apt-get update && apt-get install -y \
     npm \
     ffmpeg \
     unzip \
-    python \
+    python3-pip \
     python3 \
-    asciinema \
+    python3-dev \
  && mkdir -p /home/stuff
 # Set work dir:
 WORKDIR /home
